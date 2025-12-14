@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TURTLE</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        padding: 30px;
+        color: #2e2e2e;
+    }
+    .container {
+        background: white;
+        padding: 25px;
+        border-radius: 15px;
+        max-width: 750px;
+        margin: auto;
+        border: 3px solid #4CAF50;
+    }
+    h1 {
+        text-align: center;
+        color: #2E7D32;
+    }
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 180px;
+        margin-bottom: 20px;
+    }
+    .question {
+        font-weight: bold;
+        margin-top: 20px;
+        color: #4A148C;
+    }
+    .scale {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .input-field {
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+    
+</style>
+</head>
+
+<body>
+<div class="container">
+
+    <img src="turtle.jpg" class="logo">
+
+    <h1>TURTLE Smart Mobility Survey</h1>
+
+    <form>
+
+    <!-- REQUIRED NAME FIELD -->
+    <label class="question">Your Name:</label>
+    <input type="text" name="username" required 
+    placeholder="Enter your full name"
+    style="width:100%; padding:10px; margin-top:5px; border-radius:8px; border:2px solid #4CAF50;">
+
+    <br><br>
+
+
+    <p><b>Scale Meaning:</b><br>
+    1 = Strongly Disagree<br>
+    2 = Disagree<br>
+    3 = Neutral<br>
+    4 = Agree<br>
+    5 = Strongly Agree
+    </p>
+
+    <form>
+
+        <div class="question">1. Urban transportation feels slow and inefficient.</div>
+        <div class="scale">
+            <label><input type="radio" name="q1" value="1"> 1</label>
+            <label><input type="radio" name="q1" value="2"> 2</label>
+            <label><input type="radio" name="q1" value="3"> 3</label>
+            <label><input type="radio" name="q1" value="4"> 4</label>
+            <label><input type="radio" name="q1" value="5"> 5</label>
+        </div>
+
+        <div class="question">2. Eco‑friendly transportation options are important to me.</div>
+        <div class="scale">
+            <label><input type="radio" name="q2" value="1"> 1</label>
+            <label><input type="radio" name="q2" value="2"> 2</label>
+            <label><input type="radio" name="q2" value="3"> 3</label>
+            <label><input type="radio" name="q2" value="4"> 4</label>
+            <label><input type="radio" name="q2" value="5"> 5</label>
+        </div>
+
+        <div class="question">3. I face difficulty finding fast transportation during rush hours.</div>
+        <div class="scale">
+            <label><input type="radio" name="q3" value="1"> 1</label>
+            <label><input type="radio" name="q3" value="2"> 2</label>
+            <label><input type="radio" name="q3" value="3"> 3</label>
+            <label><input type="radio" name="q3" value="4"> 4</label>
+            <label><input type="radio" name="q3" value="5"> 5</label>
+        </div>
+
+        <div class="question">4. I would consider purchasing or renting a smart bike/scooter.</div>
+        <div class="scale">
+            <label><input type="radio" name="q4" value="1"> 1</label>
+            <label><input type="radio" name="q4" value="2"> 2</label>
+            <label><input type="radio" name="q4" value="3"> 3</label>
+            <label><input type="radio" name="q4" value="4"> 4</label>
+            <label><input type="radio" name="q4" value="5"> 5</label>
+        </div>
+
+        <div class="question">5. TURTLE solves a real problem by offering fast eco‑friendly mobility.</div>
+        <div class="scale">
+            <label><input type="radio" name="q5" value="1"> 1</label>
+            <label><input type="radio" name="q5" value="2"> 2</label>
+            <label><input type="radio" name="q5" value="3"> 3</label>
+            <label><input type="radio" name="q5" value="4"> 4</label>
+            <label><input type="radio" name="q5" value="5"> 5</label>
+        </div>
+
+        <div class="question">6. A smart bike/scooter would make my daily transportation easier and more efficient.</div>
+        <div class="scale">
+            <label><input type="radio" name="q6" value="1"> 1</label>
+            <label><input type="radio" name="q6" value="2"> 2</label>
+            <label><input type="radio" name="q6" value="3"> 3</label>
+            <label><input type="radio" name="q6" value="4"> 4</label>
+            <label><input type="radio" name="q6" value="5"> 5</label>
+        </div>
+
+        <div class="question">7. You believe smart vehicles can reduce pollution in cities.</div>
+        <div class="scale">
+            <label><input type="radio" name="q7" value="1"> 1</label>
+            <label><input type="radio" name="q7" value="2"> 2</label>
+            <label><input type="radio" name="q7" value="3"> 3</label>
+            <label><input type="radio" name="q7" value="4"> 4</label>
+            <label><input type="radio" name="q7" value="5"> 5</label>
+        </div>
+
+        <div class="question">8. I believe Turtle can help reduce traffic and pollution in the city.</div>
+        <div class="scale">
+            <label><input type="radio" name="q8" value="1"> 1</label>
+            <label><input type="radio" name="q8" value="2"> 2</label>
+            <label><input type="radio" name="q8" value="3"> 3</label>
+            <label><input type="radio" name="q8" value="4"> 4</label>
+            <label><input type="radio" name="q8" value="5"> 5</label>
+        </div>
+
+        <div class="question">9. The idea of tracking routes, speed, and battery through a mobile app is useful to me.</div>
+        <div class="scale">
+            <label><input type="radio" name="q9" value="1"> 1</label>
+            <label><input type="radio" name="q9" value="2"> 2</label>
+            <label><input type="radio" name="q9" value="3"> 3</label>
+            <label><input type="radio" name="q9" value="4"> 4</label>
+            <label><input type="radio" name="q9" value="5"> 5</label>
+        </div>
+
+        <div class="question">10. I would consider replacing short car trips with Turtle's smart bike/scooter.</div>
+        <div class="scale">
+            <label><input type="radio" name="q10" value="1"> 1</label>
+            <label><input type="radio" name="q10" value="2"> 2</label>
+            <label><input type="radio" name="q10" value="3"> 3</label>
+            <label><input type="radio" name="q10" value="4"> 4</label>
+            <label><input type="radio" name="q10" value="5"> 5</label>
+        </div>
+        <form action="https://formsubmit.co/aly.abdelmoez7@gmail.com" method="POST">
+
+<button type="submit" style="
+    background-color: #6A1B9A;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+">
+    Submit
+</button>
+
+
+</div>
+</body>
+</html>
